@@ -1,0 +1,73 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+*{font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedorNosotros{
+    width: 100%;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+}
+
+.header_contenido{
+    position: relative;
+    z-index: 100;
+
+}
+
+.banner{
+    height: 50vh;
+    position: relative;
+    background: url(../css/multimedia/fotocanchafinal.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.bannerDescripcion{
+    position: absolute;
+    text-align: center;
+    color: black;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 25px;    
+}
+
+.galeriaNosotros h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.galeriaNosotros{
+    margin: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

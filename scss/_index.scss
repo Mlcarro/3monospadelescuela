@@ -1,0 +1,73 @@
+html{
+    font-size: 62,5%;
+    background-color: $colorPrincipal;
+    font-family: 'Montserrat', sans-serif; ;
+ }
+ 
+ .imgFluid{
+    width: 100%;
+    height: auto;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif;
+   background-color:lightgray;
+}
+
+header{ 
+   position: 0;
+   top: 0;
+}
+
+.logo{
+   width: 140px;
+   height: 140px;
+
+}
+
+.carousel1{
+   width: 100vw;
+}
+
+.carousel2{
+   width: 100vw;
+}
+
+.carousel3{
+   width: 100vw;
+}
+
+.logoIg { 
+    width: 30px;
+    grid-area: footer;
+ }
+ 
+ .whatsapp{
+    width: 30px;
+    grid-area: footer;   
+ }
+ 
+ .gmail{
+    width: 30px;
+    grid-area: footer;    
+ }
+ 
+ .logoFooter{
+    width: 100px;
+    height: 100px;
+ }
+ 
+
+ 
+ .contenedorInicio{
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 200px, 200px;
+    grid-template-rows: 200px, 300px, 200px 
+    grid-template-areas
+    "menu menu"
+    "galeria galeria"
+    "footer footer"   
+ }
+ 

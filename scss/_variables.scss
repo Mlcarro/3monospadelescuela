@@ -1,0 +1,55 @@
+$colorPrincipal:#cecbc8;
+$colorSecundario:#a5a5a4b7;
+
+
+@each $colorPrincipal in inicio{
+    .#{colorPrincipal}{
+        background-color: midnightblue;
+    } 
+    
+}
+/* MAPA */
+$redes: (
+    whatsapp: lightgreen,
+    logoig:  rgb(164, 42, 62),
+    gmail: red  
+   );
+   
+   @each $red , $color in $redes {
+      .whatsapp--#{$red} {
+          background-color: $color;
+      }
+   }  
+/* GET-MAPA */
+   $estilos:(
+    color: blue, 
+    fuente: 20px
+   );
+
+   .tituloContacto{
+    background-color: map-get($estilos, color);
+    font-size: map-get($estilos, fuente);
+   }
+/* EXTEND */ 
+   .boton__presupuesto{
+    width: 250px;
+    height: 50px;
+    background-color: darkslategray;
+    border-radius: .5em;
+    cursor: pointer;  
+ }
+
+ .boton__presupuesto--green{
+    @extend .boton__presupuesto;
+    background-color: green;
+ }
+
+/* MIXIN */
+@mixin sizes($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+.logoFooter{
+    @include sizes(100px, 100px);
+}

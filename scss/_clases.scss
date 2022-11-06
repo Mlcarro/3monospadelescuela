@@ -1,0 +1,158 @@
+.titulo__Clases {
+    padding: 10px;
+    margin: 0px 10px  
+    
+
+ }
+ .titulo__Clases {
+    color:rgb(14, 16, 18)
+ }
+ 
+ body{
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+}
+
+*{font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedorClases{
+   width: 100%;
+   margin: auto;
+}
+
+img{
+   width: 100%;
+}
+
+.header__contenido{
+   position: relative;
+   z-index: 100;
+
+}
+
+.bannerClases{
+   height: 50vh;
+   position: relative;
+   background: url(../css/multimedia/equipo4.jpeg);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   
+}
+.banner-Descripcion{
+   position: absolute;
+   text-align: center;
+   color: rgb(88, 85, 85);
+   transform: translateX(-50%) translateY(-50%);
+   top: 50%;
+   left: 50%;
+   width: 100%;
+   font-size: 40px;
+   margin-top: 25px;    
+}
+
+.clases-body{
+   background-color: lightgray;
+
+}
+.clases-Titulo{
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 30px;
+   margin: 25px;
+}
+
+.Clases-individuales{
+   font-size: 35px;
+   font-weight: bold;
+   color: gray;
+   
+}
+
+.clasesInd-descripcion{
+   font-size: 25px;
+   font-weight: bold;
+   color: black;
+   
+}
+
+.Clases-grupales{
+   font-size: 35px;
+   font-weight: bold;
+   color: gray;
+   
+  
+}
+
+.clasesGrup-descripcion{
+   font-size: 25px;
+   font-weight: bold;
+   color: black;
+   
+}
+
+.Clases-torneos{
+   font-size: 35px;
+   font-weight: bold;
+   color: gray;
+   
+}
+
+.clasestor-descripcion{
+   font-size: 25px;
+   font-weight: bold;
+   color: black;
+   
+}
+
+.clases{
+   padding: 35px;
+   margin: 0 auto;
+}
+
+.boton__presupuesto--green{
+   
+   position:inherit;
+   margin: auto;
+  
+}
+.boton__presupuesto{
+   width: 250px;
+   height: 50px;
+   background-color: darkslategray;
+   border-radius: .5em;
+   cursor: pointer;  
+}
+
+.boton__presupuesto--green:hover{
+   background-color: black;
+}
+
+.boton__presupuesto h1{
+   text-align: center;
+   font-size: 15px;
+   font-weight: bold;
+   color: white;
+   
+}
+
+.boton__presupuesto--green{   
+   color: green;
+   width: 250px;
+   height: 50px;
+   background-color: darkslategray;
+   border-radius: .5em;
+   cursor: pointer;
+   transition: background-color 1s;
+   font-size: 20px;
+   text-align: center;
+   font-weight: bold;
+   line-height: 50px;
+
+
+
+
+}

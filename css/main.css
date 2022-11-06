@@ -1,0 +1,394 @@
+
+  body {
+    background-color: lightgray; }
+  
+  * {
+    font-family: 'Courier New', Courier, monospace; }
+
+  html {
+    font-size: 62,5%;
+    background-color: #cecbc8;
+     }
+
+     .logo {
+      width: 140px;
+      height: 140px; }
+
+
+    .logoIg {
+      width: 30px;
+      grid-area: footer; }
+    
+    .whatsapp {
+      width: 30px;
+      grid-area: footer; }
+    
+    .gmail {
+      width: 30px;
+      grid-area: footer; }
+    
+    .logoFooter {
+      width: 100px;
+      height: 100px; }
+
+/* MAPA */
+.whatsapp--whatsapp {
+  background-color: lightgreen; }
+
+.whatsapp--logoig {
+  background-color: #a42a3e; }
+
+.whatsapp--gmail {
+  background-color: red; }
+
+/* GET-MAPA */
+.tituloContacto {
+  background-color:lightgray;
+  font-size: 20px; }
+
+/* EXTEND */
+.boton__presupuesto, .boton__presupuesto--green {
+  width: 250px;
+  height: 50px;
+  background-color: darkslategray;
+  border-radius: .5em;
+  cursor: pointer; }
+
+.boton__presupuesto--green {
+  background-color: green; }
+
+/* MIXIN */
+.logoFooter {
+  width: 100px;
+  height: 100px; }
+
+/* INDEX */
+
+.imgFluid {
+  width: 100%;
+  height: auto; }
+
+.tituloInicio {
+    padding: 10px;
+    margin: 0px 10px; } 
+
+.carousel1 {
+  width: 100vw; }
+
+.carousel2 {
+  width: 100vw; }
+
+.carousel3 {
+  width: 100vw; }
+
+.contenedor{
+  background-color: lightgray;
+}
+
+
+ /* CLASES */
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px; }
+
+.contenedorClases {
+  width: 100%;
+  margin: auto; }
+
+img {
+  width: 100%; }
+
+.header__contenido {
+  position: relative;
+  z-index: 100; }
+
+.titulo__Clases {
+    padding: 10px;
+    margin: 0px 10px; }
+  
+.titulo__Clases {
+    color: #0e1012; }
+
+.bannerClases {
+  height: 50vh;
+  position: relative;
+  background: url(../css/multimedia/equipo4.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.banner-Descripcion {
+  position: absolute;
+  text-align: center;
+  color: #585555;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  font-size: 40px;
+  margin-top: 25px; }
+
+.clases-body {
+  background-color: lightgray; }
+
+.clases-Titulo {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 25px; }
+
+.Clases-individuales {
+  font-size: 35px;
+  font-weight: bold;
+  color: gray; }
+
+.clasesInd-descripcion {
+  font-size: 25px;
+  font-weight: bold;
+  color: black; }
+
+.Clases-grupales {
+  font-size: 35px;
+  font-weight: bold;
+  color: gray; }
+
+.clasesGrup-descripcion {
+  font-size: 25px;
+  font-weight: bold;
+  color: black; }
+
+.Clases-torneos {
+  font-size: 35px;
+  font-weight: bold;
+  color: gray; }
+
+.clasestor-descripcion {
+  font-size: 25px;
+  font-weight: bold;
+  color: black; }
+
+.clases {
+  padding: 35px;
+  margin: 0 auto; }
+
+.boton__presupuesto--green {
+  position: inherit;
+  margin: auto; }
+
+.boton__presupuesto, .boton__presupuesto--green {
+  width: 250px;
+  height: 50px;
+  background-color: darkslategray;
+  border-radius: .5em;
+  cursor: pointer; }
+
+.boton__presupuesto--green:hover {
+  background-color: black; }
+
+.boton__presupuesto h1, .boton__presupuesto--green h1 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: white; }
+
+.boton__presupuesto--green {
+  color: green;
+  width: 250px;
+  height: 50px;
+  background-color: darkslategray;
+  border-radius: .5em;
+  cursor: pointer;
+  transition: background-color 1s;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 50px; }
+
+
+/* PRODUCTOS */
+.card {
+ width: 18rem;
+ }
+
+.tituloProductos {
+  padding: 10px;
+  margin: 0px 10px; }
+
+.tituloProductos {
+  color: #0e1012; }
+
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px; }
+
+/*   NOSOTROS */
+.contenedorNosotros {
+  width: 100%;
+  margin: auto; }
+
+img {
+  object-fit: cover;
+  width:100%;
+  height:100%;
+ }
+
+.header_contenido {
+  position: relative;
+  z-index: 100; }
+
+.banner {
+  height: 50vh;
+  position: relative;
+  background: url(../css/multimedia/fotocanchafinal.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.bannerDescripcion {
+  position: absolute;
+  text-align: center;
+  color: black;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 25px; }
+
+.galeriaNosotros h1 {
+  font-size: 30px;
+  text-align: center; }
+
+.galeriaNosotros {
+  margin: 20px; }
+
+
+
+
+
+/* CONTACTO */
+.tituloContacto {
+  color: #0e1012; }
+
+  .tituloContacto {
+    padding: 10px;
+    margin: 0px 10px;
+    font-size: 30px; }
+    
+
+main{
+  padding:3.5rem 0;
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.field{
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  margin: 0.5 rem 0;
+
+}
+
+.label{
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+
+}
+
+.field input{
+  font-size: 1.1rem;
+  height: 2.2rem;
+  width: 70%;
+  padding-left: 0.5rem;
+  border: 2px solid;
+  border-radius: 5px; 
+}
+
+.field select{
+  font-size: 0.9rem;
+  height: 2.2rem;
+  width: 14rem;
+  padding-left: 0.5rem;
+  border: 2px solid;
+  border-radius: 5px;  
+}
+
+.textbox{
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin: 0.75rem 0;
+}
+
+textarea{
+  font-size: 1.1rem;
+  max-width: 100%;
+  height: 5rem;
+  max-height: 15rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  border: 2px solid;
+  border-radius: 5px; 
+}
+
+.infoclases{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20rem;
+  margin: 2rem 0;
+}
+
+.dondeEstamos {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 20px;
+  padding-left: 10px; }
+
+.mapa{
+  width:100%;
+  float:left;
+  text-align:center; 
+}
+
+
+/* MEDIAS */
+@media screen and (max-width: 768px) {
+  .contenedor {
+    grid-template-columns: repeat 3, 1fr; } }
+
+@media (min-width: 520px) {
+  .banner h1 {
+    font-size: 30px; }
+  .grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media only screen and (max-width: 1245px) and (min-width: 1024px) {
+  .contenedor {
+    width: 1000px; }
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    justify-content: space-around; } }
+
+@media (min-width: 1024px) {
+  .clases-Grid {
+    display: grid;
+    grid-template-columns: repeat(2);
+    text-align: center; } }
